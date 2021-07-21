@@ -6,7 +6,7 @@
 
 В результате тестирования выявлен следующий дефект:
 
-[Incorrect figure](https://github.com/vergizon/Hometask-2_2-java/issues/1) .
+[The bonus value is calculated incorrectly](https://github.com/vergizon/Hometask-2_2-java/issues/1) .
 
 
 # Описание процесса тестирования
@@ -16,9 +16,9 @@
 
 В качестве тестовых данных использовались данные:
 
-- регулярный бонус клиент - 0.6 ;
-- специальный бонус клиента 0.3 ;
-- тип переменной double
+- регулярный бонус клиент (переменная regularBonus типа double) - 0.6 ;
+- специальный бонус клиента (переменная specialBonus типа double) - 0.3 ;
+- переменная хранения итогового значения totalBonus типа double
 
 '''
 public class Main {
